@@ -1,0 +1,146 @@
+.main-section, .footer {
+    background-color: #1F2937;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 18px; 
+    color: #E5E7EB;
+    gap: 18px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.main-subtext{
+    font-size: 18px; 
+    color: #E5E7EB;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100px;
+    height: 25px;
+}
+.main-text > button {
+    border: 1.5px solid #3882f6;
+    border-radius: 5px;
+}
+
+.main-content > img {
+    display: flex;
+    width: 400px;
+    height: auto;
+    justify-content: flex-end;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    height: 300px;
+}
+
+.box > img {
+    width: 225px;
+    height: 150px;
+}
+
+.box > p {
+    width: 225px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 80px;
+}
+
+.action-box {
+    background-color: #3882f6;
+    padding: 30px 100px;
+    margin: 80px 150px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-heading-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-box > button {
+    border-radius: 5px;
+    border: 1.5px solid white;
+}
+
+.footer {
+    color: #f9faf8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
